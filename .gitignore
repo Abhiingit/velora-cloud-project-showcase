@@ -1,0 +1,19 @@
+# Local AWS configuration containing account/resource identifiers
+cloudfront-config.json
+s3-bucket-policy.json
+
+# Credentials, keys, and environment files
+.aws/
+.env
+.env.*
+*.pem
+*_accessKeys.csv
+*_credentials.csv
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local deployment settings
+.deploy-config.ps1
